@@ -3,7 +3,7 @@ pragma solidity ^0.8.16;
 
 import { ERC721 } from "solmate/tokens/ERC721.sol";
 import { Owned } from "solmate/auth/Owned.sol";
-import { Strings } from "openzeppelin-contracts/contracts/utils/Strings.sol";
+import { Strings } from "@openzeppelin/utils/Strings.sol";
 
 contract FooFighters is ERC721, Owned {
     using Strings for uint256;
